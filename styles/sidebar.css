@@ -1,0 +1,53 @@
+.sidebar{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    top:50px;
+    background-color: white;
+    width:80px;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+
+.sidebar-link{
+    height:85px;
+    margin-bottom:3px;
+    margin-top:40px;
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-link:hover{
+    background-color:gray;
+}
+
+.home-icon{
+   height: 40px;
+}
+
+.explore-icon{
+    height:40px;
+}
+
+.subscriptions-icon{
+    height:40px;
+    align-items: end;
+}
+
+.originals-icon{
+    height:40px;
+}
+
+.youtube-music-icon{
+    height:40px;
+}
+
+.library-icon{
+    height:40px;
+}
+
